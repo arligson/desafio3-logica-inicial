@@ -25,16 +25,16 @@ se ninja -> no ataque exibir (usou shuriken)
 
 ## O Output deveria ser:
 
-"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+Ao final deve se exibir uma mensagem: "o {tipo} atacou usando {ataque}"
 
 ## 💻 Como ficou:
 
-O héroi tem um saldo de ${saldoDasRankeadas} vitórias e está no nível ${rankingDoPersonagem}.
+"O ${this.tipo} ${this.nome} de ${this.idade} anos atacou usando ${ataque}."
 
 ## Exemplo de uma saída:
 
-O héroi tem um saldo de 77 vitórias e está no nível Ouro.
+"O mago Lito de 200 anos atacou usando magia."
 
-## Variáveis:
+## Melhorias:
 
-saldoDasRankeadas e rankingDoPersonagem
+Acrecentei gerador randomico de qual heroi aparecer no Output.
